@@ -1,0 +1,577 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Mail Extractor Pro - Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		.highlight { background-color: #ffffcc; padding: 10px; border-left: 4px solid #0066cc; }
+		.warning { background-color: #ffe6e6; padding: 10px; border-left: 4px solid #cc0000; }
+		.success { background-color: #e6ffe6; padding: 10px; border-left: 4px solid #00cc00; }
+		code { background-color: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-family: 'Courier New', monospace; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+
+		<h3 class="center alt">&ldquo;Mail Extractor Pro&rdquo; Documentation v1.0</h3>
+
+		<hr>
+
+		<h1 class="center">&ldquo;Mail Extractor Pro&rdquo;</h1>
+
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 12/10/2025<br>
+					Version: 1.0.0<br>
+					Platform: Windows 10/11<br>
+					Framework: .NET 8.0 / WinUI 3<br>
+					Support: <a href="mailto:support@yourcompany.com">support@yourcompany.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->
+
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing Mail Extractor Pro! This powerful desktop application helps you extract, analyze, and manage email data efficiently. If you have any questions that are beyond the scope of this documentation, please feel free to contact us via our support page. We're here to help!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#introduction">Introduction & Features</a></li>
+			<li><a href="#requirements">System Requirements</a></li>
+			<li><a href="#installation">Installation Guide</a></li>
+			<li><a href="#license">License Activation</a></li>
+			<li><a href="#configuration">Configuration for Developers</a></li>
+			<li><a href="#usage">How to Use</a></li>
+			<li><a href="#features">Feature Details</a></li>
+			<li><a href="#faq">Frequently Asked Questions</a></li>
+			<li><a href="#troubleshooting">Troubleshooting</a></li>
+			<li><a href="#updates">Updates & Changelog</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+			<li><a href="#support">Support & Contact</a></li>
+		</ol>
+		
+		<hr>
+
+		<h3 id="introduction"><strong>A) Introduction & Features</strong> - <a href="#toc">top</a></h3>
+
+		<p><strong>Mail Extractor Pro</strong> is a powerful Windows desktop application built with modern WinUI 3 technology. It's designed to help you extract, analyze, and manage email data efficiently with a beautiful, intuitive interface.</p>
+
+		<h4>Key Features:</h4>
+		<ul>
+			<li><strong>Email Extraction:</strong> Extract email addresses from text files with advanced parsing algorithms</li>
+			<li><strong>Data Visualization:</strong> View extracted data in a modern, responsive data grid</li>
+			<li><strong>Email Verification:</strong> Verify email addresses for validity and deliverability</li>
+			<li><strong>DNS Verification:</strong> Check domain DNS records and MX records</li>
+			<li><strong>Statistics & Analytics:</strong> View detailed statistics about your data</li>
+			<li><strong>Interactive Map:</strong> Geographic visualization of email data</li>
+			<li><strong>Multiple Export Formats:</strong> Export to TXT, Excel, Word, and more</li>
+			<li><strong>Search & Filter:</strong> Powerful search and filtering capabilities</li>
+			<li><strong>Sorting:</strong> Sort data by multiple criteria</li>
+			<li><strong>Modern UI:</strong> Beautiful, modern interface with dark mode support</li>
+			<li><strong>Secure License System:</strong> Envato-powered license verification with advanced security</li>
+			<li><strong>Performance Optimized:</strong> Handle large datasets efficiently</li>
+		</ul>
+
+		<div class="highlight">
+			<strong>What's New in Version 1.0:</strong>
+			<ul>
+				<li>Initial release with full feature set</li>
+				<li>Professional license activation system</li>
+				<li>Advanced security with hash verification and periodic re-validation</li>
+				<li>Modern WinUI 3 interface</li>
+			</ul>
+		</div> 
+
+		<hr>
+
+		<h3 id="requirements"><strong>B) System Requirements</strong> - <a href="#toc">top</a></h3>
+
+		<h4>Minimum Requirements:</h4>
+		<table>
+			<tr>
+				<td width="200"><strong>Operating System:</strong></td>
+				<td>Windows 10 version 1809 (build 17763) or later</td>
+			</tr>
+			<tr>
+				<td><strong>Processor:</strong></td>
+				<td>1 GHz or faster processor</td>
+			</tr>
+			<tr>
+				<td><strong>RAM:</strong></td>
+				<td>4 GB minimum (8 GB recommended)</td>
+			</tr>
+			<tr>
+				<td><strong>Hard Disk:</strong></td>
+				<td>500 MB free disk space</td>
+			</tr>
+			<tr>
+				<td><strong>.NET Runtime:</strong></td>
+				<td>.NET 8.0 Runtime (included in installer)</td>
+			</tr>
+			<tr>
+				<td><strong>Display:</strong></td>
+				<td>1280 x 720 minimum resolution</td>
+			</tr>
+			<tr>
+				<td><strong>Internet:</strong></td>
+				<td>Required for license activation and verification</td>
+			</tr>
+		</table>
+
+		<h4>Recommended Requirements:</h4>
+		<table>
+			<tr>
+				<td width="200"><strong>Operating System:</strong></td>
+				<td>Windows 11</td>
+			</tr>
+			<tr>
+				<td><strong>RAM:</strong></td>
+				<td>8 GB or more</td>
+			</tr>
+			<tr>
+				<td><strong>Display:</strong></td>
+				<td>1920 x 1080 or higher</td>
+			</tr>
+		</table>
+
+		<div class="warning">
+			<strong>Important:</strong> An active internet connection is required for:
+			<ul>
+				<li>Initial license activation</li>
+				<li>Periodic license re-verification (every 7 days)</li>
+				<li>Email and DNS verification features</li>
+			</ul>
+		</div>
+
+		<hr>
+
+		<h3 id="installation"><strong>C) Installation Guide</strong> - <a href="#toc">top</a></h3>
+
+		<h4>For End Users (MSIX Package):</h4>
+		<ol>
+			<li>Download the MSIX installer package from your purchase confirmation email or from CodeCanyon</li>
+			<li>Double-click the <code>.msix</code> file to begin installation</li>
+			<li>If prompted, click "Install" to proceed</li>
+			<li>Windows will automatically install all required dependencies including .NET 8.0 Runtime</li>
+			<li>Once installed, launch "Mail Extractor Pro" from the Start Menu</li>
+			<li>On first launch, you'll see the License Activation window</li>
+			<li>Enter your Envato purchase code to activate (see <a href="#license">License Activation</a> section)</li>
+		</ol>
+
+		<div class="success">
+			<strong>Easy Installation:</strong> The MSIX package includes everything you need. No manual .NET runtime installation required!
+		</div>
+
+		<h4>For Developers (Source Code):</h4>
+		<ol>
+			<li>Extract the source code ZIP file to your desired location</li>
+			<li>Install Visual Studio 2022 (17.0 or later) with:
+				<ul>
+					<li>.NET desktop development workload</li>
+					<li>Windows App SDK development workload</li>
+				</ul>
+			</li>
+			<li>Open <code>Mail Extractor.sln</code> in Visual Studio</li>
+			<li>Restore NuGet packages (Visual Studio will do this automatically)</li>
+			<li>Configure your license settings in <code>LicenseConfig.cs</code> (see <a href="#configuration">Configuration</a> section)</li>
+			<li>Build and run the project (F5)</li>
+		</ol>
+
+		<div class="warning">
+			<strong>Developer Note:</strong> Make sure to configure <code>LicenseConfig.cs</code> with your Envato API credentials before distributing your build.
+		</div>
+		
+		<hr>
+
+		<h3 id="license"><strong>D) License Activation</strong> - <a href="#toc">top</a></h3>
+
+		<p>Mail Extractor Pro uses Envato's official API for secure license verification. Your purchase code is verified directly with Envato to ensure authenticity.</p>
+
+		<h4>How to Activate Your License:</h4>
+		<ol>
+			<li>Launch Mail Extractor Pro</li>
+			<li>On first startup, the License Activation window will appear automatically</li>
+			<li>Enter your Envato purchase code in the text field</li>
+			<li>Click "Activate License" button</li>
+			<li>Wait for verification (requires internet connection)</li>
+			<li>Once activated, you'll see a success message with your buyer information</li>
+			<li>Click "Continue" to start using the application</li>
+		</ol>
+
+		<h4>Finding Your Purchase Code:</h4>
+		<p>To find your Envato purchase code:</p>
+		<ol>
+			<li>Log into your Envato Market account</li>
+			<li>Go to your Downloads page</li>
+			<li>Find "Mail Extractor Pro" in your purchases</li>
+			<li>Click "Download" and select "License certificate & purchase code"</li>
+			<li>Your purchase code will be shown on the certificate (format: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)</li>
+		</ol>
+
+		<div class="highlight">
+			<strong>Helpful Links in Activation Window:</strong>
+			<ul>
+				<li><strong>Purchase on Envato:</strong> Don't have a license? Click to buy one</li>
+				<li><strong>Watch on YouTube:</strong> Video tutorial on activation and usage</li>
+				<li><strong>Find Purchase Code:</strong> Direct link to Envato's help guide</li>
+				<li><strong>Contact Support:</strong> Email support if you need help</li>
+			</ul>
+		</div>
+
+		<h4>License Security Features:</h4>
+		<p>Mail Extractor Pro implements advanced security to protect against piracy:</p>
+		<ul>
+			<li><strong>API Verification:</strong> All licenses verified through Envato's official API</li>
+			<li><strong>Hash Verification:</strong> SHA-256 hash prevents tampering with stored license data</li>
+			<li><strong>Machine Binding:</strong> License is bound to your computer to prevent sharing</li>
+			<li><strong>Periodic Re-verification:</strong> License is re-checked every 7 days online</li>
+			<li><strong>Integrity Checks:</strong> Automatic detection of license data tampering</li>
+		</ul>
+
+		<div class="warning">
+			<strong>Important Notes:</strong>
+			<ul>
+				<li>Each purchase code can only be used on one computer at a time</li>
+				<li>Internet connection required for activation and periodic re-verification</li>
+				<li>If you change computers, you may need to deactivate on the old machine first</li>
+				<li>For multiple computers, you need separate licenses</li>
+			</ul>
+		</div>
+		
+		<hr>
+
+		<h3 id="configuration"><strong>E) Configuration for Developers</strong> - <a href="#toc">top</a></h3>
+
+		<p>If you've purchased the source code version, you can customize the license system for your own Envato product.</p>
+
+		<h4>Step 1: Get Your Envato API Token</h4>
+		<ol>
+			<li>Visit <a href="https://build.envato.com/api/" target="_blank">https://build.envato.com/api/</a></li>
+			<li>Click "Create a Token"</li>
+			<li>Give it a name (e.g., "Mail Extractor License Verification")</li>
+			<li>Select the following permissions:
+				<ul>
+					<li><strong>View and search Envato sites</strong></li>
+					<li><strong>Verify purchases of your items</strong></li>
+				</ul>
+			</li>
+			<li>Copy the generated token</li>
+		</ol>
+
+		<h4>Step 2: Configure LicenseConfig.cs</h4>
+		<p>Open <code>Mail Extractor\LicenseConfig.cs</code> and update the following values:</p>
+
+<pre>public static class LicenseConfig
+{
+    // Set to true to enable license verification, false for free version
+    public static readonly bool RequireLicense = true;
+
+    // Your Envato API Personal Token
+    public static readonly string EnvatoApiToken = "YOUR_ENVATO_API_TOKEN_HERE";
+
+    // Your Envato Item ID (find it in your item URL)
+    public static readonly string EnvatoItemId = "YOUR_ITEM_ID_HERE";
+
+    // Your product name
+    public static readonly string ProductName = "Mail Extractor Pro";
+
+    // Your support email
+    public static readonly string SupportEmail = "support@yourcompany.com";
+
+    // Your YouTube tutorial link
+    public static readonly string YouTubeLink = "https://www.youtube.com/watch?v=YOUR_VIDEO_ID";
+
+    // Your Envato product page
+    public static readonly string EnvatoProductLink = "https://codecanyon.net/item/your-product/YOUR_ITEM_ID";
+}</pre>
+
+		<div class="highlight">
+			<strong>Finding Your Item ID:</strong><br>
+			Your item ID is in the URL of your CodeCanyon product page:<br>
+			<code>https://codecanyon.net/item/product-name/<strong>12345678</strong></code><br>
+			In this example, <code>12345678</code> is your Item ID.
+		</div>
+
+		<h4>Security Configuration</h4>
+		<p>The license system includes these configurable security settings in <code>LicenseService.cs</code>:</p>
+		<ul>
+			<li><code>VERIFICATION_INTERVAL_DAYS</code>: How often to re-verify license online (default: 7 days)</li>
+			<li>Hash generation includes machine name for machine-binding</li>
+			<li>All verification is done through Envato's official API</li>
+		</ul>
+
+		<div class="warning">
+			<strong>Security Best Practices:</strong>
+			<ul>
+				<li>Never commit your API token to public repositories</li>
+				<li>Use environment variables or secure configuration for production</li>
+				<li>Test license activation thoroughly before releasing</li>
+				<li>Consider code obfuscation for additional protection</li>
+			</ul>
+		</div>
+
+		<hr>
+
+		<h3 id="usage"><strong>F) How to Use Mail Extractor Pro</strong> - <a href="#toc">top</a></h3>
+
+		<h4>Basic Workflow:</h4>
+		<ol>
+			<li><strong>Load Data:</strong> Click "Load File" on the Home page and select a text file</li>
+			<li><strong>View Data:</strong> Navigate to "Data View" to see extracted emails in a table</li>
+			<li><strong>Search & Filter:</strong> Use the search box to filter results</li>
+			<li><strong>Sort:</strong> Click column headers to sort data</li>
+			<li><strong>Export:</strong> Use the Export menu to save data in your preferred format</li>
+		</ol>
+
+		<h4>Navigation:</h4>
+		<p>The application has a sidebar navigation with the following sections:</p>
+		<ul>
+			<li><strong>Home:</strong> Load files and quick actions</li>
+			<li><strong>Data View:</strong> View and manage extracted data</li>
+			<li><strong>Statistics:</strong> View analytics and statistics</li>
+			<li><strong>Email Verification:</strong> Verify email addresses</li>
+			<li><strong>DNS Verification:</strong> Check DNS and MX records</li>
+			<li><strong>Purchase:</strong> Buy premium data packages</li>
+			<li><strong>Settings:</strong> Configure application preferences</li>
+		</ul>
+
+		<hr>
+
+		<h3 id="features"><strong>G) Feature Details</strong> - <a href="#toc">top</a></h3>
+
+		<h4>Email Extraction</h4>
+		<p>The extraction engine uses advanced regex patterns to identify and extract email addresses from text files. Supports:</p>
+		<ul>
+			<li>Standard email formats (name@domain.com)</li>
+			<li>International domains</li>
+			<li>Various TLDs (.com, .org, .net, country codes, etc.)</li>
+			<li>Large file processing with progress tracking</li>
+		</ul>
+
+		<h4>Data Visualization</h4>
+		<p>View extracted data in a modern, sortable data grid with:</p>
+		<ul>
+			<li>Column sorting (click headers)</li>
+			<li>Real-time search and filtering</li>
+			<li>Pagination for large datasets</li>
+			<li>Responsive design</li>
+		</ul>
+
+		<h4>Export Options</h4>
+		<p>Export your data in multiple formats:</p>
+		<ul>
+			<li><strong>Text (.txt):</strong> Simple list format</li>
+			<li><strong>Excel (.xlsx):</strong> Formatted spreadsheet</li>
+			<li><strong>Word (.docx):</strong> Formatted document</li>
+			<li><strong>CSV:</strong> Comma-separated values</li>
+		</ul>
+
+		<h4>Statistics & Analytics</h4>
+		<p>Comprehensive statistics including:</p>
+		<ul>
+			<li>Total email count</li>
+			<li>Unique domains</li>
+			<li>Domain distribution</li>
+			<li>Geographic distribution (if location data available)</li>
+		</ul>
+
+		<hr>
+
+		<h3 id="faq"><strong>H) Frequently Asked Questions</strong> - <a href="#toc">top</a></h3>
+
+		<p><strong>Q: Do I need an internet connection to use the app?</strong><br>
+		A: Yes, internet is required for initial license activation, periodic re-verification (every 7 days), and email/DNS verification features. The core extraction functionality works offline once activated.</p>
+
+		<p><strong>Q: Can I use my license on multiple computers?</strong><br>
+		A: Each license is bound to one computer. For multiple computers, you need separate licenses or an extended license.</p>
+
+		<p><strong>Q: What if I change my computer?</strong><br>
+		A: Contact support to transfer your license to a new machine. You may need to deactivate on the old machine first.</p>
+
+		<p><strong>Q: How do I update the application?</strong><br>
+		A: Updates will be available through CodeCanyon. Download the new version and install over the existing installation. Your license will remain active.</p>
+
+		<p><strong>Q: What file formats can I load?</strong><br>
+		A: Currently supports .txt text files. Additional formats may be added in future updates.</p>
+
+		<p><strong>Q: Is my data secure?</strong><br>
+		A: Yes. All data is processed locally on your computer. No data is sent to external servers except for email/DNS verification features (which only send the email address being verified).</p>
+
+		<p><strong>Q: Can I customize the application?</strong><br>
+		A: If you purchased the source code version, yes! The application is built with .NET/WinUI 3 and fully customizable.</p>
+
+		<hr>
+
+		<h3 id="troubleshooting"><strong>I) Troubleshooting</strong> - <a href="#toc">top</a></h3>
+
+		<h4>License Activation Issues:</h4>
+		<p><strong>Problem:</strong> "Could not verify license" error<br>
+		<strong>Solution:</strong>
+		<ul>
+			<li>Check your internet connection</li>
+			<li>Verify you entered the correct purchase code (no extra spaces)</li>
+			<li>Ensure the purchase code is for Mail Extractor Pro (not another product)</li>
+			<li>Contact support if the issue persists</li>
+		</ul>
+
+		<p><strong>Problem:</strong> "License already in use" error<br>
+		<strong>Solution:</strong>
+		<ul>
+			<li>Each license can only be active on one computer at a time</li>
+			<li>If you have multiple computers, you need separate licenses</li>
+			<li>Contact support to transfer your license</li>
+		</ul>
+
+		<h4>Performance Issues:</h4>
+		<p><strong>Problem:</strong> Slow performance with large files<br>
+		<strong>Solution:</strong>
+		<ul>
+			<li>Ensure your system meets the recommended requirements (8GB RAM)</li>
+			<li>Close other applications to free up memory</li>
+			<li>Consider processing large files in smaller batches</li>
+		</ul>
+
+		<h4>Application Won't Launch:</h4>
+		<p><strong>Solution:</strong>
+		<ul>
+			<li>Verify Windows 10/11 is up to date</li>
+			<li>Ensure .NET 8.0 Runtime is installed</li>
+			<li>Try reinstalling the application</li>
+			<li>Check Windows Event Viewer for error details</li>
+		</ul>
+
+		<hr>
+
+		<h3 id="updates"><strong>J) Updates & Changelog</strong> - <a href="#toc">top</a></h3>
+
+		<h4>Version 1.0.0 (December 2025)</h4>
+		<ul>
+			<li>Initial release</li>
+			<li>Email extraction from text files</li>
+			<li>Data visualization and management</li>
+			<li>Export to multiple formats</li>
+			<li>Email and DNS verification</li>
+			<li>Statistics and analytics</li>
+			<li>Secure Envato license system</li>
+			<li>Modern WinUI 3 interface</li>
+			<li>Dark mode support</li>
+		</ul>
+
+		<h4>Future Updates:</h4>
+		<p>Planned features for future versions:</p>
+		<ul>
+			<li>Support for additional file formats (CSV, Excel, etc.)</li>
+			<li>Batch email verification</li>
+			<li>Advanced filtering options</li>
+			<li>Email validation rules customization</li>
+			<li>Cloud backup and sync</li>
+			<li>API for third-party integrations</li>
+		</ul>
+
+		<div class="success">
+			<strong>Free Updates:</strong> All minor updates and bug fixes are free! Download updates from your CodeCanyon account.
+		</div>
+
+		<hr>
+
+		<h3 id="credits"><strong>K) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+
+		<p>Mail Extractor Pro was built using the following technologies and libraries:</p>
+
+		<h4>Frameworks & SDKs:</h4>
+		<ul>
+			<li><strong>.NET 8.0:</strong> Core framework - Microsoft</li>
+			<li><strong>WinUI 3:</strong> UI framework - Microsoft</li>
+			<li><strong>Windows App SDK:</strong> Desktop development - Microsoft</li>
+		</ul>
+
+		<h4>NuGet Packages:</h4>
+		<ul>
+			<li><strong>EnvatoBuildSDK:</strong> License verification - Envato</li>
+			<li><strong>Microsoft.UI.Xaml:</strong> UI controls - Microsoft</li>
+			<li><strong>CommunityToolkit.WinUI:</strong> Additional UI components</li>
+		</ul>
+
+		<h4>Icons & Graphics:</h4>
+		<ul>
+			<li><strong>Fluent Icons:</strong> System icons - Microsoft</li>
+			<li><strong>Segoe Fluent Icons:</strong> Additional iconography - Microsoft</li>
+		</ul>
+
+		<h4>Documentation Template:</h4>
+		<ul>
+			<li><strong>Blueprint CSS Framework:</strong> Documentation styling</li>
+		</ul>
+
+		<hr>
+
+		<h3 id="support"><strong>L) Support & Contact</strong> - <a href="#toc">top</a></h3>
+
+		<h4>Getting Support:</h4>
+		<p>If you need help with Mail Extractor Pro, we're here to assist!</p>
+
+		<div class="highlight">
+			<strong>Support Channels:</strong>
+			<ul>
+				<li><strong>Email:</strong> support@yourcompany.com</li>
+				<li><strong>CodeCanyon:</strong> Contact via your purchase page</li>
+				<li><strong>Documentation:</strong> This file (you're reading it!)</li>
+			</ul>
+		</div>
+
+		<h4>What We Support:</h4>
+		<ul>
+			<li>License activation issues</li>
+			<li>Bug reports and fixes</li>
+			<li>Feature clarifications</li>
+			<li>Installation problems</li>
+			<li>Basic usage questions</li>
+		</ul>
+
+		<h4>What's Not Covered:</h4>
+		<ul>
+			<li>Customization services (available separately)</li>
+			<li>Third-party software issues</li>
+			<li>Server setup or configuration</li>
+			<li>General Windows troubleshooting</li>
+		</ul>
+
+		<h4>Response Time:</h4>
+		<p>We aim to respond to all support requests within 24-48 hours (Monday-Friday). Please include:</p>
+		<ul>
+			<li>Your purchase code</li>
+			<li>Detailed description of the issue</li>
+			<li>Screenshots if applicable</li>
+			<li>Windows version and system specifications</li>
+		</ul>
+
+		<div class="success">
+			<strong>Extended Support:</strong> Active support is included for 6 months from purchase. Extended support available for purchase on CodeCanyon.
+		</div>
+
+		<hr>
+
+		<p>Once again, thank you so much for purchasing Mail Extractor Pro! We've worked hard to create a powerful, secure, and easy-to-use application. If you have any questions or feedback, please don't hesitate to reach out. We love hearing from our customers!</p>
+
+		<p>If you enjoy using Mail Extractor Pro, please consider leaving a rating and review on CodeCanyon. It helps us tremendously and allows us to continue improving the product.</p>
+
+		<p class="append-bottom alt large"><strong>The Mail Extractor Pro Team</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
