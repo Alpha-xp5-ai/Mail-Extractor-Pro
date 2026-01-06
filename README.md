@@ -152,6 +152,10 @@ Platform: Microsoft Store
 
 GitHub: https://github.com/Alpha-xp5-ai
 
+--------------------- > Promo Code : FKDDF-QK77X-DG6RH-2YG7G-KKMHZ , VQRXH-4CXVC-K9KP3-QC6QX-WJJKZ , YMQ6R-QVKDP-CT2WK-QC2HR-76VGZ , DWVQW-PDJPH-FD6PY-D7KCY-VCD9Z   < -----------------------------------------------
+
+                         ie http://go.microsoft.com/fwlink/?LinkId=532540&mstoken=DWVQW-PDJPH-FD6PY-D7KCY-VCD9Z
+
 🔮 Roadmap
 
 Support for CSV & Excel input files
